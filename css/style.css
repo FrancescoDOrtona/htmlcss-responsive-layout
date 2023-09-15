@@ -93,6 +93,14 @@ figure{
     font-size: 15px;
 }
 
+.medium-text{
+    font-size: 22px;
+}
+
+.color-blue{
+    color: var(--blue);
+}
+
 .color-white{
     color: var(--light);
 }
@@ -100,6 +108,11 @@ figure{
 .justify-between {
     justify-content: space-between;
 }
+
+.align-items-start{
+    align-items: flex-start;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -109,6 +122,9 @@ figure{
     display: block;
 }
 
+.button-icon{
+    margin-right: 10px;
+}
 
 /* component classes */
 
@@ -141,6 +157,46 @@ li>a{
 .hamburger-menu{
    display: none;
 }
+/* Main */
+
+section{
+    margin: 50px 0px;
+}
+
+/* Cards */
+
+.card__style{
+    background-color: var(--light-blue);
+    border-radius: 20px;
+}
+.card__demo{
+    display: flex;
+    flex-direction: row;
+}
+
+.demo-phone{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.demo-phone__img{
+    width: 60%;
+}
+
+.button__app-store{
+    color: var(--light);
+    background-color: var(--blue);
+    padding: 0px 30px;
+    letter-spacing: 4px;
+}
+
+.card__body{
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
 
 
@@ -160,7 +216,7 @@ li>a{
 /* Mobile */
 
 @media (max-width: 575.98px){
-    
+
 }
 
 /* debug */
