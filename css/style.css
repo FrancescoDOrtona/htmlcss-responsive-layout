@@ -65,7 +65,7 @@ figure{
     flex-wrap: wrap;
 }
 
-[class^="col"]{
+[class^="col-"]{
     padding: 0px 12px;
 }
 
@@ -95,6 +95,15 @@ figure{
 
 .medium-text{
     font-size: 22px;
+}
+
+
+.text-weight{
+    font-weight: 700;
+}
+
+.text-opacity{
+    opacity: 0.6;
 }
 
 .color-blue{
@@ -135,6 +144,7 @@ figure{
     background-color: white;
     border-radius: 20px;
     padding: 0 18px;
+    white-space: nowrap;
 }
 
 
@@ -187,7 +197,7 @@ section{
 .button__app-store{
     color: var(--light);
     background-color: var(--blue);
-    padding: 0px 30px;
+    padding: 0px 40px;
     letter-spacing: 4px;
 }
 
@@ -211,12 +221,26 @@ section{
     .hamburger-menu{
         display: block;
     }
+
+    .card__demo{
+        flex-direction: column;
+    }
+
+    .demo-phone{
+        justify-content: flex-start;
+    }
 }
 
 /* Mobile */
 
 @media (max-width: 575.98px){
+    .demo-phone{
+        justify-content: center;
+    }
 
+    .card{
+        flex-direction: column;
+    }
 }
 
 /* debug */
@@ -232,7 +256,8 @@ section{
     border: 1px solid var(--purple);
     padding: 10px;
 }
-.debug [class^="col"] {
+.debug [class^="col-"] {
     border: 1px solid orange;
     padding: 10px;
 }
+
