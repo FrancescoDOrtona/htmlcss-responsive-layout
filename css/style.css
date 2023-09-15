@@ -66,7 +66,7 @@ figure{
     flex-wrap: wrap;
 }
 
-[class^="col-"]{
+[class^="col"]{
     padding: 0px 12px;
 }
 
@@ -113,11 +113,11 @@ figure{
     opacity: 0.6;
 }
 
-.color-blue{
+.text-blue{
     color: var(--blue);
 }
 
-.color-white{
+.text-white{
     color: var(--light);
 }
 
@@ -163,6 +163,7 @@ figure{
 }
 
 .navbar-list {
+    color: var(--light);
     display: flex;
     gap: 22px;
 }
@@ -172,6 +173,7 @@ li>a{
 }
 
 .hamburger-menu{
+    color: var(--light);
    display: none;
 }
 /* Main */
@@ -304,6 +306,14 @@ section{
 @media (max-width: 575.98px){
     .demo-phone{
         justify-content: center;
+    }
+
+    [class^="col-"]{
+        width: 100%;
+    }
+
+    .button__app-store{
+        white-space: wrap;
     }
 
     .card{
