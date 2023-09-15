@@ -56,7 +56,7 @@ figure{
 }
 
 .container-small {
-    max-width: 880px;
+    max-width: 904px;
     margin: 0 auto;
 }
 
@@ -102,6 +102,10 @@ figure{
 }
 .text-weight{
     font-weight: 700;
+}
+
+.text-italic{
+    font-style: italic;
 }
 
 .text-opacity{
@@ -176,10 +180,10 @@ li>a{
 /* Main */
 
 section{
-    margin: 50px 0px;
+    padding: 50px 0px;
 }
 
-/* Cards */
+/* 1st Section - Cards */
 .card{
     row-gap: 25px;
 }
@@ -221,6 +225,40 @@ section{
     font-size: 60px;
 }
 
+/* 2nd Section - Developement */
+
+.developement{
+    background-color: var(--purple);
+}
+
+.developement__content{
+    flex-wrap: nowrap;
+}
+
+.developement__card{
+    display: flex;
+    align-items: flex-end;
+}
+
+.developement__card-bg{
+    background-color: white;
+}
+
+.developement__card-img-1{
+   padding: 90px 0px;
+}
+
+.developement__button{
+    background-color: var(--purple);
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+}
+
+/* .developement__card-img-2{
+    width: 215px;
+} */
 
 
 /* Responsive */
@@ -242,6 +280,14 @@ section{
     .demo-phone{
         justify-content: flex-start;
     }
+
+    .developement__content{
+        flex-wrap: wrap;
+    }
+
+    .responsive-title{
+        font-size: 40px;
+    }
 }
 
 /* Mobile */
@@ -253,6 +299,10 @@ section{
 
     .card{
         flex-direction: column;
+    }
+
+    .responsive-title{
+        font-size: 22px;
     }
 }
 
