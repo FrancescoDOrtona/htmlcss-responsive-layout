@@ -13,7 +13,6 @@ ul,
 ol,
 menu {
     list-style: none;
-
 }
 
 img {
@@ -26,6 +25,11 @@ a {
     color: currentColor;
     display: inline-block;
 }
+
+figure{
+    display: block;
+}
+
 /* palette colori */
 
 :root {
@@ -37,6 +41,8 @@ a {
     --light:#FFFFFF;
 
 }
+
+
 /* layouts */
 
 .container {
@@ -59,6 +65,10 @@ a {
     flex-wrap: wrap;
 }
 
+[class^="col"]{
+    padding: 0px 12px;
+}
+
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
@@ -75,13 +85,28 @@ a {
     flex-basis: calc((100% / 12) * 12);
 }
 
+
+
 /* utility classes */
+
+.small-text{
+    font-size: 15px;
+}
+
+.color-white{
+    color: var(--light);
+}
 
 .justify-between {
     justify-content: space-between;
 }
 .align-items-center {
     align-items: center;
+}
+
+
+.img-block{
+    display: block;
 }
 
 
@@ -96,15 +121,46 @@ a {
     padding: 0 18px;
 }
 
+
 /* header */
+
 .page-header {
     background-color: var(--blue);
+    padding: 16px 0px;
 }
 
 .navbar-list {
     display: flex;
     gap: 22px;
-    align-items: center;
+}
+
+li>a{
+    line-height: 40px;
+}
+
+.hamburger-menu{
+   display: none;
+}
+
+
+
+/* Responsive */
+
+/* Tablet */
+
+@media (max-width: 767.98px){
+    .navbar-list{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 575.98px){
+    
 }
 
 /* debug */
