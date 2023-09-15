@@ -97,7 +97,9 @@ figure{
     font-size: 22px;
 }
 
-
+.text-center{
+    text-align: center;
+}
 .text-weight{
     font-weight: 700;
 }
@@ -133,6 +135,10 @@ figure{
 
 .button-icon{
     margin-right: 10px;
+}
+
+.height-100{
+    height: 100%;
 }
 
 /* component classes */
@@ -174,6 +180,9 @@ section{
 }
 
 /* Cards */
+.card{
+    row-gap: 25px;
+}
 
 .card__style{
     background-color: var(--light-blue);
@@ -206,6 +215,10 @@ section{
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.card__icon{
+    font-size: 60px;
 }
 
 
