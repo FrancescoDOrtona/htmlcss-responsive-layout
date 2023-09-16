@@ -383,6 +383,14 @@ section{
     .responsive-title{
         font-size: 22px;
     }
+
+    .testimonials__card-body{
+        flex-direction: column;
+    }
+
+    .testimonials__card-cont{
+        text-align: center;
+    }
 }
 
 /* debug */
