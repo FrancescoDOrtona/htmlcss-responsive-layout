@@ -70,6 +70,10 @@ figure{
     padding: 0px 12px;
 }
 
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
+}
+
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
@@ -80,6 +84,10 @@ figure{
 
 .col-8 {
     flex-basis: calc((100% / 12) * 8);
+}
+
+.col-10 {
+    flex-basis: calc((100% / 12) * 10);
 }
 
 .col-12 {
@@ -170,6 +178,10 @@ figure{
     margin-right: 10px;
 }
 
+
+.relative{
+    position: relative;
+}
 /* component classes */
 
 .button {
@@ -355,6 +367,55 @@ section{
     color: var(--light);
     font-weight: bold;
 }
+
+/* 5th Section */
+
+.about-us{
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    gap: 90px;
+}
+
+.about-us__content{
+    display: flex;
+    flex-direction: column;
+    gap:70px;
+}
+
+
+.about-us__text{
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.about-us__partner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.about-us__img{
+    width: 245px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.about-us__icon{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+
+.about-us__button{
+    background-color: var(--purple);
+    color: var(--light);
+    font-size: 13px;
+    line-height: 30px;
+    padding: 0px 15px;
+}
 /* Responsive */
 
 /* Tablet */
@@ -426,6 +487,16 @@ section{
     .benefits> .col-4{
         flex-basis: 100%;
     }
+
+    .about-us{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .about-us__img{
+        width: 175px;
+    }
+
 }
 
 /* debug */
