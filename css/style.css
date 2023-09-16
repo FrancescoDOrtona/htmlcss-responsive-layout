@@ -105,8 +105,12 @@ figure{
 .text-center{
     text-align: center;
 }
-.text-weight{
+.text-weight-700{
     font-weight: 700;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
 }
 
 .text-italic{
@@ -128,6 +132,15 @@ figure{
 .text-purple{
     color: var(--purple);
 }
+
+.bg-color-purple{
+    background-color: var(--purple);
+}
+
+.bg-color-light-blue{
+    background-color: var(--light-blue);
+}
+
 
 .justify-between {
     justify-content: space-between;
@@ -196,7 +209,6 @@ section{
 }
 
 .card__style{
-    background-color: var(--light-blue);
     border-radius: 20px;
     height: 100%;
 }
@@ -274,6 +286,10 @@ section{
 
 /* 3rd Section */
 
+.testimonials{
+    gap: 30px;
+}
+
 .testimonials__header{
     display: flex;
     flex-direction: column;
@@ -281,9 +297,6 @@ section{
     text-align: center;
 }
 
-.testimonials__sub-title{
-    text-transform: uppercase;
-}
 
 .testimonials__title{
     padding: 40px 0px;
@@ -291,6 +304,28 @@ section{
 
 .testimonials__description{
     font-size: 18px;
+}
+
+.testimonials__card-img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.testimonials__card-body{
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 60px;
+}
+
+.testimonials__card-p{
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+.card-p__quote{
+    padding: 0px 8px;
 }
 
 /* Responsive */
