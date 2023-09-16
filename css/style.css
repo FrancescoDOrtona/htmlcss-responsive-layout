@@ -91,7 +91,7 @@ figure{
 /* utility classes */
 
 .small-text{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .medium-text{
@@ -100,6 +100,10 @@ figure{
 
 .large-text{
     font-size: 35px;
+}
+
+.xl-text{
+    font-size: 50px;
 }
 
 .text-center{
@@ -141,6 +145,9 @@ figure{
     background-color: var(--light-blue);
 }
 
+.bg-color-blue{
+    background-color: var(--blue);
+}
 
 .justify-between {
     justify-content: space-between;
@@ -328,6 +335,16 @@ section{
     padding: 0px 8px;
 }
 
+/* 4th Section */
+
+.benefits__card{
+    background-color: var(--light);
+}
+
+.button__benefits{
+    background-color: var(--purple);
+    padding: 0px 30px;
+}
 /* Responsive */
 
 /* Tablet */
