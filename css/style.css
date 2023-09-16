@@ -281,6 +281,18 @@ section{
     text-align: center;
 }
 
+.testimonials__sub-title{
+    text-transform: uppercase;
+}
+
+.testimonials__title{
+    padding: 40px 0px;
+}
+
+.testimonials__description{
+    font-size: 18px;
+}
+
 /* Responsive */
 
 /* Tablet */
