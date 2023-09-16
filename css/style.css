@@ -341,6 +341,10 @@ section{
     row-gap: 30px;
 }
 
+.benefits__title{
+    margin-bottom: 75px;
+}
+
 .benefits__card{
     background-color: var(--light);
 }
@@ -348,6 +352,8 @@ section{
 .button__benefits{
     background-color: var(--purple);
     padding: 0px 30px;
+    color: var(--light);
+    font-weight: bold;
 }
 /* Responsive */
 
