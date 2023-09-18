@@ -456,7 +456,7 @@ section{
 }
 
 .pricing__copyright{
-    font-size: 13px;
+    font-size: 15px;
     color:var(--light);
     display: flex;
     align-items: center;
@@ -470,6 +470,35 @@ section{
 .pricing__policy{
     text-decoration: underline;
 }
+
+/* footer */
+
+footer{
+    background-color: var(--dark-grey);
+    padding: 40px 0px;
+}
+
+.container-xs{
+    max-width: 410px;
+    margin: 0 auto;
+}
+
+.footer__content{
+    font-size: 15px;
+    color: var(--light);
+    text-align: center;
+    padding: 0px 12px;
+}
+
+.footer__paragraph{
+    margin-bottom: 70px;
+}
+
+.footer__link{
+    text-decoration: underline;
+    color: var(--purple);
+}
+
 
 /* Responsive */
 
@@ -558,6 +587,10 @@ section{
 
     .pricing{
         text-align: center;
+    }
+
+    .pricing__content{
+        gap: 30px;
     }
 
     .pricing__content h2{
