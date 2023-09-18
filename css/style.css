@@ -556,6 +556,22 @@ section{
         width: 175px;
     }
 
+    .pricing{
+        text-align: center;
+    }
+
+    .pricing__content h2{
+        font-size: 27px;
+    }
+
+    .pricing__title{
+        font-size: 60px;
+    }
+
+    .pricing__copyright{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 /* debug */
