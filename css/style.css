@@ -222,6 +222,7 @@ li>a{
 
 .hamburger-menu{
     color: var(--light);
+    font-size: 25px;
    display: none;
 }
 /* Main */
