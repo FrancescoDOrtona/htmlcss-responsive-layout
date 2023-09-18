@@ -111,7 +111,10 @@ figure{
 }
 
 .xl-text{
-    font-size: 65px;
+    font-size: 60px;
+}
+.xxl-text{
+    font-size: 90px;
 }
 
 .text-center{
@@ -144,6 +147,11 @@ figure{
 .text-purple{
     color: var(--purple);
 }
+
+.text-yellow{
+    color: var(--yellow);
+}
+
 
 .bg-color-purple{
     background-color: var(--purple);
@@ -416,6 +424,53 @@ section{
     line-height: 30px;
     padding: 0px 15px;
 }
+
+/* 6th Section */
+
+.pricing{
+    justify-content: center;
+}
+
+.pricing__title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.pricing__paragraph{
+    max-width: 465px;
+}
+
+.pricing__button{
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: var(--purple);
+    padding: 30px 80px;
+    border-radius: 999px;
+}
+
+.pricing__copyright{
+    font-size: 13px;
+    color:var(--light);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pricing__circle{
+    font-size: 5px;
+}
+
+.pricing__policy{
+    text-decoration: underline;
+}
+
 /* Responsive */
 
 /* Tablet */
@@ -450,6 +505,10 @@ section{
 
     .benefits> .col-4{
         flex-basis: 50%;
+    }
+
+    .about-us__icon{
+        font-size: 50px;
     }
 }
 
